@@ -1,0 +1,207 @@
+.kalk_sek{
+width: 100%;
+height: 100dvh;
+display: grid;
+grid-template-columns: 47% 47%;
+column-gap: 6%;
+padding: 110px;
+}
+.kalk_sek_left{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+gap: 24px;
+
+}
+.kalk_sek_left h2{
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.28px;
+    width: 100%;
+    text-align: center;
+}
+.kalk_sek_left p{
+    font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+width: 80%;
+}
+.kalk_sek_left button{
+    width: 166px;
+height: 33px;
+border-radius: 16.5px ;
+background-color:  #F3F3F3;
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.71px;
+text-align: left;
+padding: 8px;
+cursor: pointer;
+transition: 0.5s;
+border: none;
+text-align: center;
+}
+.kalk_sek_left button:hover{
+transform: scale(1.05);
+     background-color: #E93434;
+color: aliceblue;
+
+
+}
+.pdf{
+width:  100%;
+position: relative;
+height: 320px;
+margin-top: 50px;
+}
+.pdf_agree{
+display: flex;
+gap: 17px;
+align-items: center;
+
+
+}
+.pdf>img{
+position: absolute;
+right: 0px;
+bottom: 0px;
+
+
+
+}
+.kalk_sek_right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+
+}
+.kalk_sek_right h3{
+    font-family: SF Pro Display;
+    font-size: 33px;
+    font-weight: 700;
+    margin-left: 44px;
+
+
+
+}
+.text{
+    font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 400;
+color: #888888;
+
+}
+.didgit{
+    font-family: SF Pro Display;
+    font-size: 35px;
+    font-weight: 800;
+    
+
+}
+.progres-bar{
+width: 100%;
+height: 8px;
+background-color: #F1F1F1;
+position: relative;
+
+}
+.progres-bar-fill{
+    background: #FA0000;
+height: 100%;
+position: absolute;
+left: 0px;
+
+
+}
+.bar1{
+width: 145px;
+
+
+}
+.bar2{
+width: 299px;
+
+
+
+}
+.kalk_sek_right_content{
+width: 100%;
+display: flex;
+flex-direction: column;
+padding: 44px;
+gap: 12px;
+}
+.slider{
+    width: 5px;
+    height: 15px;
+    background: #8E4444;
+    border: 1px ;
+    
+}
+.sl1{
+position: absolute;
+    left: 145px;
+top: -4px;
+}
+.sl2{
+    position: absolute;
+     left: 298px;
+     top: -4px;
+     border:  2px solid #000000;
+}
+.income{
+    width: 100%;
+    height:208px;
+    flex-direction:column;
+    display: flex;
+}
+.income-box{
+    background: linear-gradient(180deg, #FF3535 0%, #D92222 98.51%);
+height: 133px;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 8px;
+align-items: center;
+}
+.income button{
+   width: 100%; 
+   background: #332F2F;
+   font-family: SF Pro Display;
+   font-size: 21px;
+   font-weight: 600;
+   color: #BCBCBC;
+  height: 75px;
+  cursor: pointer;
+}
+.income-sum{
+    font-family: SF Pro Display;
+font-size: 51px;
+font-weight: 800;
+color: #F1F1F1;
+position: relative;
+margin-top: 35px;
+}
+.income-sum::after{
+    content: "$"; /* Символ доллара */
+    position: absolute;
+    right: -20px; /* Смещение по горизонтали */
+    top: -10px; /* Смещение по вертикали для поднятия */
+    font-size: 36px; /* Размер шрифта доллара можно настроить */
+    color: rgb(255, 255, 255); /* Цвет доллара */
+    font-weight: 800;
+    
+}
+.income-box p {
+    color: #FB8888;
+  
+}
+#content2{
+    margin-top: -50px;
+}

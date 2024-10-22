@@ -1,0 +1,205 @@
+#reg{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #F2F6F8 0.64%, #FEFEFE 99.08%);
+    padding: 95px 116px;
+    gap:94px;
+}
+.form-box{
+    width: 421px;
+    height: 546px;
+    gap: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 27px 0px #00000011;
+    background: #FFFFFF;
+}
+.form-box form{
+    width: 100%;
+    height: 100%;
+    padding:36px 48px 46px 42px;
+    display: flex;
+    flex-direction: column;
+    gap:26px;
+}
+.form-box form h2{
+    font-family: SF Pro Display;
+font-size: 27px;
+font-weight: 700;
+line-height: 32.22px;
+text-align: center;
+}
+.form-box form p{
+    font-family: SF Pro Display;
+font-size: 13px;
+font-weight: 500;
+line-height: 15.51px;
+text-align: left;
+color: #9A9A9A;
+width: 80%;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    gap:21px;
+    width: 60%;
+}
+.fields input{
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #97979759;
+    box-shadow: 0px -1px 1px 0px #00000000 inset;
+    width: 100%;
+    padding-left: 17px;
+    font-family: SF Pro Display;
+font-size: 13px;
+font-weight: 500;
+line-height: 15.51px;
+text-align: left;
+padding-right: 17px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Custom checkbox styles */
+.custom-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #9A9A9A;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+/* Checked state */
+input[type="checkbox"]:checked + .custom-checkbox {
+    background-color: #ffffff;
+}
+
+/* Checkmark */
+.custom-checkbox::after {
+    content: '';
+    display: none;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    background-color: #ff0000;
+    
+}
+/* Show checkmark when checked */
+input[type="checkbox"]:checked + .custom-checkbox::after {
+    display: block;
+}
+
+/* Label styles */
+label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+#agry{
+    color: #ff0000;
+    text-decoration: underline;
+
+}
+#btm-sub{
+    background: #ff0000 ;
+    width: 100%;
+    height: 61px;
+    border-radius: 4px;
+    font-family: SF Pro Display;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25.06px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    padding: 19px;
+    border: none;
+}
+.rekom{
+    display: flex;
+    align-items: center;
+    gap:50px;
+
+}
+.rekom-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 206px;
+    height: 206px;
+}
+.rekom-img img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 2px 13px 0px #00000017;
+border-radius: 50%;
+mix-blend-mode: lighten;
+
+}
+.rekom-img p{
+    font-family: SF Pro Display;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 64.44px;
+    letter-spacing: -1.414285659790039px;
+    text-align: center;
+    z-index: 2;
+   
+}
+.rekom-content{
+    display: flex;
+    flex-direction: column;
+    gap:38px;
+    
+}
+.rekom-content h3{
+    font-family: SF Pro Display;
+font-size: 41px;
+font-weight: 700;
+line-height: 42px;
+text-align: left;
+width: 85%;
+
+}
+.rekom-content p{
+    font-family: SF Pro Display;
+font-size: 13px;
+font-weight: 500;
+line-height: 15.51px;
+text-align: left;
+color: #9A9A9A;
+width: 60%;
+}
+.rekom-content>div{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    
+}
+.contakts-list{
+display: flex;
+gap:41px;
+list-style: none;
+
+}
+.contakts-list li{
+    display: flex;
+    align-items: center;
+    gap:9px;
+
+}
+#main-link{
+text-decoration: none;
+color:#ff0000;
+margin-top: -34px;
+margin-bottom: -18px;
+}

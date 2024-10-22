@@ -1,0 +1,116 @@
+@import url('./modyles/kolkylator/kalk.css');
+@import url('./modyles/cards/cards.css');
+@import url('./modyles/reg/reg.css');
+
+
+*{box-sizing: border-box;
+padding: 0;
+margin: 0;}
+.logo{
+    font-family: SF Pro Display;
+font-size: 25px;
+font-weight: 800;
+line-height: 29.83px;
+text-align: left;
+color: #FFFFFF;
+text-decoration: none;
+}
+nav{
+height: 100%;
+border: #E93434 solid 2px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+    height: 100%;
+
+}
+nav ul li{
+    font-family: SF Pro Display;
+font-size: 17px;
+font-weight: 600;
+line-height: 20.29px;
+text-align: left;
+color: #FFFFFF;
+cursor: pointer;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    height: 100%; 
+}
+.login button{
+padding: 8px;    
+height: 40px;
+gap: 0px;
+border-radius: 20px ;
+color: #FFFFFF;
+cursor: pointer;
+border: 1.5px solid #FFFFFF;
+background: transparent;
+font-family: SF Pro Display;
+font-size: 15px;
+font-weight: 600;
+line-height: 17.9px;
+text-align: left;
+
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 73px;
+    width: 100vw;
+    background-color: #E93434;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.banner{
+    height:calc(100dvh - 73px);
+    background-size: cover;
+    position: relative;
+    width: 100dvw;
+    background-image: url("./png/dark-blue-grunge-cement-wall-mural-texture-plain.png");
+}
+.banner h2{
+    font-family: SF Pro Display;
+    font-size: 42px;
+    font-weight: 800;
+    color: #FFFFFF;
+    width: 60%;
+    text-align: left;
+    
+
+}
+.banner button{font-family: SF Pro Display;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 31.03px;
+    letter-spacing: -0.6809523701667786px;
+    text-align: center;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: #E93434;
+height: 66px;
+border-radius: 33px;
+width: 270px;
+}
+#btk{
+    position: absolute;
+    right: 0px;
+
+}
+.banner-text{
+height: 100%;
+width: 60%;
+display: flex;
+flex-direction: column;
+gap: 63px;
+justify-content: center;
+margin-left: 105px;
+}
